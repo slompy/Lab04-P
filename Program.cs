@@ -45,10 +45,10 @@
 
 // Console.WriteLine(movieGenre);
 
-int score = 3200;
-int recordScore = 3000;
+// int score = 3200;
+// int recordScore = 3000;
 
-string result = (score > recordScore) ? "Новый рекорд" : "Обычный результат";
+// string result = (score > recordScore) ? "Новый рекорд" : "Обычный результат";
 
 
 // if(score > recordScore) {
@@ -56,4 +56,14 @@ string result = (score > recordScore) ? "Новый рекорд" : "Обычн�
 // } else {
 //     result = "Обычный результат!";
 // }
-Console.WriteLine(result);
+// Console.WriteLine(result);
+
+
+int age = 15;
+if (age >= 18) {
+    System.Console.WriteLine("Доступ разрешён");
+} else {
+    System.Console.WriteLine("Доступ запрещён");
+}
+System.Console.WriteLine("Программа продолжает работу");
+
