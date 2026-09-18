@@ -12,3 +12,4 @@ C:\Users\Admin\Documents\Lab04-P\obj\Debug\net10.0\refint\Lab04-P.dll
 C:\Users\Admin\Documents\Lab04-P\obj\Debug\net10.0\Lab04-P.pdb
 C:\Users\Admin\Documents\Lab04-P\obj\Debug\net10.0\Lab04-P.genruntimeconfig.cache
 C:\Users\Admin\Documents\Lab04-P\obj\Debug\net10.0\ref\Lab04-P.dll
+C:\Users\Admin\Documents\Lab04-P\obj\Debug\net10.0\Lab04-P.sourcelink.json

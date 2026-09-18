@@ -59,11 +59,28 @@
 // Console.WriteLine(result);
 
 
-int age = 15;
-if (age >= 18) {
-    System.Console.WriteLine("Доступ разрешён");
-} else {
-    System.Console.WriteLine("Доступ запрещён");
-}
-System.Console.WriteLine("Программа продолжает работу");
+// int age = 15;
+// if (age >= 18) {
+//     Console.WriteLine("Доступ разрешён");
+// } else {
+//     Console.WriteLine("Доступ запрещён");
+// }
+// Console.WriteLine("Программа продолжает работу");
 
+// int age = 67;
+// if (age < 13) {
+//     Console.WriteLine("Ребёнок");
+// } else if (age < 18) {
+//     Console.WriteLine("Подросток");
+// } else {
+//     Console.WriteLine("Взрослый");
+// }
+   
+
+int age = 16;
+double height = 1.4;
+if (age >= 14 && height >= 1.5) {
+    Console.WriteLine("Можно кататься");
+} else {
+    Console.WriteLine("Нельзя кататься");
+}
