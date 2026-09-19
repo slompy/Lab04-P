@@ -77,9 +77,9 @@
 // }
    
 
-// int age = 16;
+// int age2 = 16;
 // double height = 1.4;
-// if (age >= 14 && height >= 1.5) {
+// if (age2 >= 14 && height >= 1.5) {
 //     Console.WriteLine("Можно кататься");
 // } else {
 //     Console.WriteLine("Нельзя кататься");
@@ -171,4 +171,4 @@ if (enteredSymbol1 == stone && enteredSymbol2 == stone) {
 }  else {
     System.Console.WriteLine("Ошибка ввода");
 }
-// ======================================= 
+// =======================================
