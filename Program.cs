@@ -90,30 +90,52 @@
 
 
 
-// Задача А
-System.Console.Write("Введите целое число:");
+// // Задача А
+// System.Console.Write("Введите целое число:");
+// int yourNumber = int.Parse(Console.ReadLine());
+
+// if (yourNumber % 2 == 0) {
+//     Console.WriteLine("Число чётное");
+// }
+// else {
+//     Console.WriteLine("Число нечётное");
+// }
+
+
+// // Задача Б
+// System.Console.Write("Введите оценку (от 2 до 5):");
+// int yourScore = int.Parse(Console.ReadLine());
+
+// if (yourScore == 5) {
+//     Console.WriteLine($"{yourScore} — 'Отлично'");
+// } else if (yourScore == 4) {
+//     Console.WriteLine($"{yourScore} — 'Хорошо'");
+// } else if (yourScore == 3) {
+//     Console.WriteLine($"{yourScore} — 'Удовлетворительно'");
+// } else if (yourScore == 2) {
+//     Console.WriteLine($"{yourScore} — 'Неудовлетворительно'");
+// } else {
+//     Console.WriteLine("Неверная оценка");
+// }
+
+
+
+
+// =============ВАРИАНТ 4================= так красивее помечать
+Console.Write("Введите целое число:");
 int yourNumber = int.Parse(Console.ReadLine());
 
-if (yourNumber % 2 == 0) {
-    Console.WriteLine("Число чётное");
-}
-else {
-    Console.WriteLine("Число нечётное");
-}
-
-
-// Задача Б
-System.Console.Write("Введите оценку (от 2 до 5):");
-int yourScore = int.Parse(Console.ReadLine());
-
-if (yourScore == 5) {
-    Console.WriteLine($"{yourScore} — 'Отлично'");
-} else if (yourScore == 4) {
-    Console.WriteLine($"{yourScore} — 'Хорошо'");
-} else if (yourScore == 3) {
-    Console.WriteLine($"{yourScore} — 'Удовлетворительно'");
-} else if (yourScore == 2) {
-    Console.WriteLine($"{yourScore} — 'Неудовлетворительно'");
+if (yourNumber % 2 == 0 && yourNumber >= 0) {
+    Console.WriteLine("Чётное положительное");
+} else if (yourNumber % 2 == 0 && yourNumber < 0) {
+    Console.WriteLine("Чётное не положительное");
+} else if (yourNumber % 2 != 0 && yourNumber < 0) {
+    Console.WriteLine("Нечётное не положительное");
+} else if (yourNumber % 2 != 0 && yourNumber >= 0) {
+    Console.WriteLine("Нечётное положительное");
 } else {
-    Console.WriteLine("Неверная оценка");
+    Console.WriteLine($"{yourNumber} неверное число");
 }
+// ======================================= 
+
+// ==============ВАРИАНТ 9================
