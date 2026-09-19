@@ -121,21 +121,54 @@
 
 
 
-// =============ВАРИАНТ 4================= так красивее помечать
-Console.Write("Введите целое число:");
-int yourNumber = int.Parse(Console.ReadLine());
+// // =============ВАРИАНТ 4================= так красивее помечать
+// Console.Write("Введите целое число:");
+// int yourNumber = int.Parse(Console.ReadLine());
 
-if (yourNumber % 2 == 0 && yourNumber >= 0) {
-    Console.WriteLine("Чётное положительное");
-} else if (yourNumber % 2 == 0 && yourNumber < 0) {
-    Console.WriteLine("Чётное не положительное");
-} else if (yourNumber % 2 != 0 && yourNumber < 0) {
-    Console.WriteLine("Нечётное не положительное");
-} else if (yourNumber % 2 != 0 && yourNumber >= 0) {
-    Console.WriteLine("Нечётное положительное");
-} else {
-    Console.WriteLine($"{yourNumber} неверное число");
-}
-// ======================================= 
+// if (yourNumber % 2 == 0 && yourNumber >= 0) {
+//     Console.WriteLine("Чётное положительное");
+// } else if (yourNumber % 2 == 0 && yourNumber < 0) {
+//     Console.WriteLine("Чётное не положительное");
+// } else if (yourNumber % 2 != 0 && yourNumber < 0) {
+//     Console.WriteLine("Нечётное не положительное");
+// } else if (yourNumber % 2 != 0 && yourNumber >= 0) {
+//     Console.WriteLine("Нечётное положительное");
+// } else {
+//     Console.WriteLine($"{yourNumber} неверное число");
+// }
+// // ======================================= 
 
 // ==============ВАРИАНТ 9================
+
+// Я не знаю как решить проблему с GIT BASH, в терминале русские буквы не выводятся, поэтому я делаю через PowerShell.
+
+string stone = "К";
+string scissors = "Н";
+string paper = "Б";
+
+Console.Write("Первый игрок! Введите ваше действие(Камень - 'К', Ножницы - 'Н', Бумага - 'Б'): ");
+string enteredSymbol1 = Console.ReadLine();
+Console.WriteLine($"Первый игрок выбрал: {enteredSymbol1}");
+System.Console.WriteLine();
+
+Console.Write("Второй игрок! Введите ваше действие(Камень - 'К', Ножницы - 'Н', Бумага - 'Б'): ");
+string enteredSymbol2 = Console.ReadLine();
+Console.WriteLine($"Второй игрок выбрал: {enteredSymbol2}");
+System.Console.WriteLine();
+
+if (enteredSymbol1 == stone && enteredSymbol2 == stone) {
+    Console.WriteLine("Камень не побеждает камень. Ничья");
+} else if (enteredSymbol1 == paper && enteredSymbol2 == paper) {
+    Console.WriteLine("Бумага не побеждает бумагу. Ничья");
+} else if (enteredSymbol1 == scissors && enteredSymbol2 == scissors) {
+    Console.WriteLine("Ножницы не побеждает ножницы. Ничья");
+} else if (enteredSymbol1 == stone && enteredSymbol2 == scissors || enteredSymbol1 == scissors && enteredSymbol2 == stone) {
+    Console.WriteLine("Камень побеждает ножницы");
+} else if (enteredSymbol1 == stone && enteredSymbol2 == paper || enteredSymbol1 == paper && enteredSymbol2 == stone) {
+    Console.WriteLine("Бумага побеждает камень");
+}  else if (enteredSymbol1 == scissors && enteredSymbol2 == paper || enteredSymbol1 == paper && enteredSymbol2 == scissors) {
+    Console.WriteLine("Ножницы побеждают бумагу");
+}  else {
+    System.Console.WriteLine("Ошибка ввода");
+}
+// ======================================= 
