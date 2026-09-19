@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\Lab04-P\\Lab04-P.csproj": {}
+    "C:\\Users\\Admin\\documents\\Lab04-P\\Lab04-P.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\Lab04-P\\Lab04-P.csproj": {
+    "C:\\Users\\Admin\\documents\\Lab04-P\\Lab04-P.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Lab04-P\\Lab04-P.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\documents\\Lab04-P\\Lab04-P.csproj",
         "projectName": "Lab04-P",
-        "projectPath": "C:\\Users\\Admin\\Documents\\Lab04-P\\Lab04-P.csproj",
+        "projectPath": "C:\\Users\\Admin\\documents\\Lab04-P\\Lab04-P.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\Lab04-P\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\documents\\Lab04-P\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

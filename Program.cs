@@ -77,10 +77,43 @@
 // }
    
 
-int age = 16;
-double height = 1.4;
-if (age >= 14 && height >= 1.5) {
-    Console.WriteLine("Можно кататься");
+// int age = 16;
+// double height = 1.4;
+// if (age >= 14 && height >= 1.5) {
+//     Console.WriteLine("Можно кататься");
+// } else {
+//     Console.WriteLine("Нельзя кататься");
+// }
+
+
+
+
+
+
+// Задача А
+System.Console.Write("Введите целое число:");
+int yourNumber = int.Parse(Console.ReadLine());
+
+if (yourNumber % 2 == 0) {
+    Console.WriteLine("Число чётное");
+}
+else {
+    Console.WriteLine("Число нечётное");
+}
+
+
+// Задача Б
+System.Console.Write("Введите оценку (от 2 до 5):");
+int yourScore = int.Parse(Console.ReadLine());
+
+if (yourScore == 5) {
+    Console.WriteLine($"{yourScore} — 'Отлично'");
+} else if (yourScore == 4) {
+    Console.WriteLine($"{yourScore} — 'Хорошо'");
+} else if (yourScore == 3) {
+    Console.WriteLine($"{yourScore} — 'Удовлетворительно'");
+} else if (yourScore == 2) {
+    Console.WriteLine($"{yourScore} — 'Неудовлетворительно'");
 } else {
-    Console.WriteLine("Нельзя кататься");
+    Console.WriteLine("Неверная оценка");
 }
